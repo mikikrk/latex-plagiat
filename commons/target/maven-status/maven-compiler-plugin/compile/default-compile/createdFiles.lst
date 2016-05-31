@@ -1,0 +1,14 @@
+com\zpi\plagiarism_detector\commons\util\Observable.class
+com\zpi\plagiarism_detector\commons\util\TestUtils.class
+com\zpi\plagiarism_detector\commons\protocol\ApplicationProperties.class
+com\zpi\plagiarism_detector\commons\factory\AbstractFactory.class
+com\zpi\plagiarism_detector\commons\protocol\ProtocolCode.class
+com\zpi\plagiarism_detector\commons\protocol\plagiarism\PlagiarismDetectionResult.class
+com\zpi\plagiarism_detector\commons\util\TypeUtils.class
+com\zpi\plagiarism_detector\commons\protocol\plagiarism\PlagiarismFragment.class
+com\zpi\plagiarism_detector\commons\protocol\Message.class
+com\zpi\plagiarism_detector\commons\util\TextUtils.class
+com\zpi\plagiarism_detector\commons\protocol\plagiarism\PlagiarismResult.class
+com\zpi\plagiarism_detector\commons\database\DocumentType.class
+com\zpi\plagiarism_detector\commons\util\PdfUtils.class
+com\zpi\plagiarism_detector\commons\protocol\DocumentData.class

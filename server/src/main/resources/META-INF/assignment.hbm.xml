@@ -1,0 +1,15 @@
+<?xml version="1.0"?><!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.zpi.plagiarism_detector.server.database">
+    <class name="com.zpi.plagiarism_detector.server.database.Assignment" table="ASSIGNMENT">
+        <composite-id>
+            <key-property name="articleId" type="long" column="ARTICLE_ID"
+                          length="20"/>
+            <key-property name="keywordId" type="long" column="KEYWORD_ID"
+                          length="20"/>
+        </composite-id>
+
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,27 @@
+.root {
+    -fx-background-image: url("./img/bg.jpg");
+}
+
+.pane {
+    -fx-background-color: black;
+}
+
+.button {
+    -fx-font-weight: bold;
+}
+
+.label {
+    -fx-text-fill: white;
+}
+
+#appTitle {
+    -fx-font-size: 32px;
+    -fx-font-family: "Arial Black";
+    -fx-text-fill: #EEEEEE;
+    -fx-effect: innershadow(three-pass-box, rgba(0, 0, 0, 0.7), 6, 0.0, 0, 2);
+    -fx-alignment: center;
+}
+
+#checkButton {
+    -fx-font-size: 14px;
+}

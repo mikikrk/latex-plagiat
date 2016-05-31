@@ -1,0 +1,3 @@
+com\zpi\plagiarism_detector\client\model\core\ClientTest.class
+com\zpi\plagiarism_detector\client\model\io\ClientReaderTest.class
+com\zpi\plagiarism_detector\client\model\io\ClientWriterTest.class

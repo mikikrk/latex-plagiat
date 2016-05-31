@@ -1,0 +1,17 @@
+com\zpi\plagiarism_detector\server\sourcecode\SourceCodeTest.class
+itest\com\zpi\plagiarism_detector\server\data\FileData_CreateNewDirectorySuccessIT.class
+com\zpi\plagiarism_detector\server\core\ServerTest.class
+itest\com\zpi\plagiarism_detector\server\data\FileData_CreateNewDirectoryAlreadyExistsExceptionIT.class
+itest\com\zpi\plagiarism_detector\server\data\ServerDataIt.class
+com\zpi\plagiarism_detector\server\data\ServerDataTest$1.class
+com\zpi\plagiarism_detector\server\detector\PlagiarismDetectorTest.class
+itest\com\zpi\plagiarism_detector\server\core\ServerIT.class
+com\zpi\plagiarism_detector\server\handlers\MessageHandlerTest.class
+com\zpi\plagiarism_detector\server\data\MonitorTest.class
+com\zpi\plagiarism_detector\server\database\ArticleTest.class
+com\zpi\plagiarism_detector\server\factories\core\ServerFactoryTest.class
+com\zpi\plagiarism_detector\server\data\ServerDataTest.class
+com\zpi\plagiarism_detector\server\ServerPropertiesTest.class
+com\zpi\plagiarism_detector\server\core\ServerTest$1.class
+com\zpi\plagiarism_detector\server\handlers\ConnectionHandlerTest.class
+com\zpi\plagiarism_detector\server\handlers\MessageDispatcherTest.class

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.zpi.plagiarism_detector.client.model.core.ClientTest" duration-ms="469" started-at="2014-11-26T06:27:37Z" finished-at="2014-11-26T06:27:37Z">
+    <groups>
+    </groups>
+    <test name="Command line test 3d1912df-790e-4844-b436-19aa70d66a2c" duration-ms="469" started-at="2014-11-26T06:27:37Z" finished-at="2014-11-26T06:27:37Z">
+      <class name="com.zpi.plagiarism_detector.client.model.core.ClientTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.zpi.plagiarism_detector.client.model.core.ClientTest@35851384]" name="init" is-config="true" duration-ms="421" started-at="2014-11-26T07:27:37Z" finished-at="2014-11-26T07:27:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="update_UpdateRegisteredObserverAndChangeStatusToUnchangedTest()[pri:0, instance:com.zpi.plagiarism_detector.client.model.core.ClientTest@35851384]" name="update_UpdateRegisteredObserverAndChangeStatusToUnchangedTest" duration-ms="32" started-at="2014-11-26T07:27:37Z" finished-at="2014-11-26T07:27:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_UpdateRegisteredObserverAndChangeStatusToUnchangedTest -->
+      </class> <!-- com.zpi.plagiarism_detector.client.model.core.ClientTest -->
+    </test> <!-- Command line test 3d1912df-790e-4844-b436-19aa70d66a2c -->
+  </suite> <!-- com.zpi.plagiarism_detector.client.model.core.ClientTest -->
+  <suite name="com.zpi.plagiarism_detector.client.model.io.ClientWriterTest" duration-ms="62" started-at="2014-11-26T06:27:37Z" finished-at="2014-11-26T06:27:37Z">
+    <groups>
+    </groups>
+    <test name="Command line test 59914092-cd45-42d6-ae04-bc4d90c00539" duration-ms="62" started-at="2014-11-26T06:27:37Z" finished-at="2014-11-26T06:27:37Z">
+      <class name="com.zpi.plagiarism_detector.client.model.io.ClientWriterTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.zpi.plagiarism_detector.client.model.io.ClientWriterTest@27f674d]" name="init" is-config="true" duration-ms="31" started-at="2014-11-26T07:27:37Z" finished-at="2014-11-26T07:27:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="run_OneMessageInQueueSuccessTest()[pri:0, instance:com.zpi.plagiarism_detector.client.model.io.ClientWriterTest@27f674d]" name="run_OneMessageInQueueSuccessTest" duration-ms="16" started-at="2014-11-26T07:27:37Z" finished-at="2014-11-26T07:27:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run_OneMessageInQueueSuccessTest -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.zpi.plagiarism_detector.client.model.io.ClientWriterTest@27f674d]" name="init" is-config="true" duration-ms="0" started-at="2014-11-26T07:27:37Z" finished-at="2014-11-26T07:27:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="run_NoMessagesInQueueSuccessTest()[pri:0, instance:com.zpi.plagiarism_detector.client.model.io.ClientWriterTest@27f674d]" name="run_NoMessagesInQueueSuccessTest" duration-ms="0" started-at="2014-11-26T07:27:37Z" finished-at="2014-11-26T07:27:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run_NoMessagesInQueueSuccessTest -->
+        <test-method status="PASS" signature="writeMessage_nullMessageThrowsNullPointerException()[pri:0, instance:com.zpi.plagiarism_detector.client.model.io.ClientWriterTest@27f674d]" name="writeMessage_nullMessageThrowsNullPointerException" duration-ms="15" started-at="2014-11-26T07:27:37Z" finished-at="2014-11-26T07:27:37Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeMessage_nullMessageThrowsNullPointerException -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.zpi.plagiarism_detector.client.model.io.ClientWriterTest@27f674d]" name="init" is-config="true" duration-ms="0" started-at="2014-11-26T07:27:37Z" finished-at="2014-11-26T07:27:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="writeMessage_succesWithNonNullMessage()[pri:0, instance:com.zpi.plagiarism_detector.client.model.io.ClientWriterTest@27f674d]" name="writeMessage_succesWithNonNullMessage" duration-ms="0" started-at="2014-11-26T07:27:37Z" finished-at="2014-11-26T07:27:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeMessage_succesWithNonNullMessage -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.zpi.plagiarism_detector.client.model.io.ClientWriterTest@27f674d]" name="init" is-config="true" duration-ms="0" started-at="2014-11-26T07:27:37Z" finished-at="2014-11-26T07:27:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+      </class> <!-- com.zpi.plagiarism_detector.client.model.io.ClientWriterTest -->
+    </test> <!-- Command line test 59914092-cd45-42d6-ae04-bc4d90c00539 -->
+  </suite> <!-- com.zpi.plagiarism_detector.client.model.io.ClientWriterTest -->
+  <suite name="com.zpi.plagiarism_detector.client.model.io.ClientReaderTest" duration-ms="78" started-at="2014-11-26T06:27:37Z" finished-at="2014-11-26T06:27:37Z">
+    <groups>
+    </groups>
+    <test name="Command line test e64cc29a-c08e-4353-a532-144c1f9ec33c" duration-ms="78" started-at="2014-11-26T06:27:37Z" finished-at="2014-11-26T06:27:37Z">
+      <class name="com.zpi.plagiarism_detector.client.model.io.ClientReaderTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.zpi.plagiarism_detector.client.model.io.ClientReaderTest@2d209079]" name="init" is-config="true" duration-ms="16" started-at="2014-11-26T07:27:37Z" finished-at="2014-11-26T07:27:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="closeSuccessTest()[pri:0, instance:com.zpi.plagiarism_detector.client.model.io.ClientReaderTest@2d209079]" name="closeSuccessTest" duration-ms="15" started-at="2014-11-26T07:27:37Z" finished-at="2014-11-26T07:27:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSuccessTest -->
+        <test-method status="PASS" signature="close_IOExceptionSuccessTest()[pri:0, instance:com.zpi.plagiarism_detector.client.model.io.ClientReaderTest@2d209079]" name="close_IOExceptionSuccessTest" duration-ms="16" started-at="2014-11-26T07:27:37Z" finished-at="2014-11-26T07:27:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_IOExceptionSuccessTest -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.zpi.plagiarism_detector.client.model.io.ClientReaderTest@2d209079]" name="init" is-config="true" duration-ms="0" started-at="2014-11-26T07:27:37Z" finished-at="2014-11-26T07:27:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="receiveMessages_ClassNotFoundExceptionThrownTest()[pri:0, instance:com.zpi.plagiarism_detector.client.model.io.ClientReaderTest@2d209079]" name="receiveMessages_ClassNotFoundExceptionThrownTest" duration-ms="0" started-at="2014-11-26T07:27:37Z" finished-at="2014-11-26T07:27:37Z">
+          <exception class="java.lang.ClassNotFoundException">
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassNotFoundException
+	at com.zpi.plagiarism_detector.client.model.io.ClientReader.tryReadMessage(ClientReader.java:58)
+	at com.zpi.plagiarism_detector.client.model.io.ClientReader.receiveMessages(ClientReader.java:43)
+	at com.zpi.plagiarism_detector.client.model.io.ClientReaderTest.receiveMessages_ClassNotFoundExceptionThrownTest(ClientReaderTest.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:91)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:204)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:107)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- receiveMessages_ClassNotFoundExceptionThrownTest -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.zpi.plagiarism_detector.client.model.io.ClientReaderTest@2d209079]" name="init" is-config="true" duration-ms="15" started-at="2014-11-26T07:27:37Z" finished-at="2014-11-26T07:27:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.zpi.plagiarism_detector.client.model.io.ClientReaderTest@2d209079]" name="init" is-config="true" duration-ms="0" started-at="2014-11-26T07:27:37Z" finished-at="2014-11-26T07:27:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.zpi.plagiarism_detector.client.model.io.ClientReaderTest@2d209079]" name="init" is-config="true" duration-ms="0" started-at="2014-11-26T07:27:37Z" finished-at="2014-11-26T07:27:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="receiveMessages_OneMessageReceivedSuccessTest()[pri:0, instance:com.zpi.plagiarism_detector.client.model.io.ClientReaderTest@2d209079]" name="receiveMessages_OneMessageReceivedSuccessTest" duration-ms="16" started-at="2014-11-26T07:27:37Z" finished-at="2014-11-26T07:27:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- receiveMessages_OneMessageReceivedSuccessTest -->
+        <test-method status="PASS" signature="receiveMessages_IOExceptionThrownTest()[pri:0, instance:com.zpi.plagiarism_detector.client.model.io.ClientReaderTest@2d209079]" name="receiveMessages_IOExceptionThrownTest" duration-ms="0" started-at="2014-11-26T07:27:37Z" finished-at="2014-11-26T07:27:37Z">
+          <exception class="java.io.IOException">
+            <full-stacktrace>
+              <![CDATA[java.io.IOException
+	at com.zpi.plagiarism_detector.client.model.io.ClientReader.tryReadMessage(ClientReader.java:58)
+	at com.zpi.plagiarism_detector.client.model.io.ClientReader.receiveMessages(ClientReader.java:43)
+	at com.zpi.plagiarism_detector.client.model.io.ClientReaderTest.receiveMessages_IOExceptionThrownTest(ClientReaderTest.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:91)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:204)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:107)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.IOException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- receiveMessages_IOExceptionThrownTest -->
+        <test-method status="PASS" signature="receiveMessages_ZeroMessagesReceivedSuccessTest()[pri:0, instance:com.zpi.plagiarism_detector.client.model.io.ClientReaderTest@2d209079]" name="receiveMessages_ZeroMessagesReceivedSuccessTest" duration-ms="0" started-at="2014-11-26T07:27:37Z" finished-at="2014-11-26T07:27:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- receiveMessages_ZeroMessagesReceivedSuccessTest -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.zpi.plagiarism_detector.client.model.io.ClientReaderTest@2d209079]" name="init" is-config="true" duration-ms="0" started-at="2014-11-26T07:27:37Z" finished-at="2014-11-26T07:27:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+      </class> <!-- com.zpi.plagiarism_detector.client.model.io.ClientReaderTest -->
+    </test> <!-- Command line test e64cc29a-c08e-4353-a532-144c1f9ec33c -->
+  </suite> <!-- com.zpi.plagiarism_detector.client.model.io.ClientReaderTest -->
+</testng-results>

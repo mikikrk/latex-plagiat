@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.*?>
+<GridPane xmlns:fx="http://javafx.com/fxml" fx:id="inputArticleGrid" vgap="10" GridPane.columnIndex="0"
+          GridPane.rowIndex="2">
+    <children>
+        <TextArea fx:id="inputTitle" editable="false" maxHeight="30.0" GridPane.columnIndex="0" GridPane.rowIndex="0"
+                  GridPane.valignment="CENTER"/>
+        <TextArea fx:id="inputData" editable="false" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+        <TextArea fx:id="inputKeywords" editable="false" maxHeight="30.0" GridPane.columnIndex="0"
+                  GridPane.rowIndex="2"/>
+    </children>
+    <columnConstraints>
+        <ColumnConstraints percentWidth="100.0"/>
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints percentHeight="10.0"/>
+        <RowConstraints percentHeight="70.0"/>
+        <RowConstraints percentHeight="10.0"/>
+        <RowConstraints percentHeight="10.0"/>
+    </rowConstraints>
+</GridPane>

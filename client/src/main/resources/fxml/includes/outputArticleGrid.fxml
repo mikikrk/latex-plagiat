@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<GridPane xmlns:fx="http://javafx.com/fxml" fx:id="outputArticleGrid" vgap="10.0" GridPane.columnIndex="0"
+          GridPane.rowIndex="0">
+    <children>
+        <GridPane>
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+                <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="100.0"/>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+            </rowConstraints>
+            <children>
+                <Button mnemonicParsing="false" text="&lt;" GridPane.halignment="RIGHT"/>
+                <Button mnemonicParsing="false" text="&gt;" GridPane.columnIndex="2" GridPane.halignment="LEFT"/>
+                <GridPane GridPane.columnIndex="1">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+                        <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="100.0"/>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                    </rowConstraints>
+                    <children>
+                        <Label fx:id="currentArticleNr" text="0" textFill="WHITE" GridPane.halignment="RIGHT">
+                            <padding>
+                                <Insets right="2.0"/>
+                            </padding>
+                        </Label>
+                        <Label text="out of" textFill="WHITE" GridPane.columnIndex="1" GridPane.halignment="CENTER"
+                               GridPane.hgrow="NEVER" GridPane.vgrow="NEVER"/>
+                        <Label fx:id="totalArticleCnt" text="0" textFill="WHITE" GridPane.columnIndex="2"
+                               GridPane.halignment="LEFT">
+                            <padding>
+                                <Insets left="5.0"/>
+                            </padding>
+                        </Label>
+                    </children>
+                </GridPane>
+            </children>
+        </GridPane>
+        <TextArea fx:id="outputData" editable="false" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+    </children>
+    <columnConstraints>
+        <ColumnConstraints percentWidth="100.0"/>
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints percentHeight="10.0"/>
+        <RowConstraints percentHeight="90.0"/>
+    </rowConstraints>
+</GridPane>

@@ -4,7 +4,6 @@ import com.zpi.plagiarism_detector.commons.protocol.DocumentData;
 import com.zpi.plagiarism_detector.commons.protocol.plagiarism.PlagiarismDetectionResult;
 import com.zpi.plagiarism_detector.commons.protocol.plagiarism.PlagiarismResult;
 import com.zpi.plagiarism_detector.server.data.ServerData;
-import com.zpi.plagiarism_detector.server.data.WebData;
 import com.zpi.plagiarism_detector.server.websearch.WebsiteAnalyze;
 import org.apache.commons.lang3.StringUtils;
 import org.testng.Assert;
@@ -22,7 +21,6 @@ public class PlagiarismDetectorTest {
     private WebsiteAnalyze websiteAnalyze;
 
     private ServerData serverData;
-    private WebData webData;
     private ComparingAlgorithm comparingAlgorithm;
 
     private DocumentData document;

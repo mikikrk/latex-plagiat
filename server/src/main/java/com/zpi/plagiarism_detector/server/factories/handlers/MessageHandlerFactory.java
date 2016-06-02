@@ -4,7 +4,6 @@ import com.zpi.plagiarism_detector.server.articles.ArticleComparison;
 import com.zpi.plagiarism_detector.server.articles.CompareEngine;
 import com.zpi.plagiarism_detector.server.data.FileData;
 import com.zpi.plagiarism_detector.server.data.ServerData;
-import com.zpi.plagiarism_detector.server.data.WebData;
 import com.zpi.plagiarism_detector.server.database.Dao;
 import com.zpi.plagiarism_detector.server.database.DaoFactory;
 import com.zpi.plagiarism_detector.server.detector.ComparingAlgorithm;
@@ -12,7 +11,6 @@ import com.zpi.plagiarism_detector.server.detector.PlagiarismDetector;
 import com.zpi.plagiarism_detector.server.handlers.MessageDispatcher;
 import com.zpi.plagiarism_detector.server.handlers.MessageHandler;
 import com.zpi.plagiarism_detector.server.sourcecode.SourceCodeComparison;
-import com.zpi.plagiarism_detector.server.websearch.WebsiteAnalyze;
 
 import java.io.*;
 import java.net.Socket;
@@ -38,16 +36,14 @@ public class MessageHandlerFactory extends AbstractMessageHandlerFactory {
 
     private void initFields() {
         Dao dao = DaoFactory.createDao();
-        WebsiteAnalyze websiteAnalyze = new WebsiteAnalyze(dao); 
         FileData fileData = new FileData();
         ServerData serverData = new ServerData(dao, fileData);
-        WebData webData = new WebData(websiteAnalyze);
         CompareEngine compareEngine = new CompareEngine();
         ArticleComparison articleComparison = new ArticleComparison(compareEngine);
         SourceCodeComparison sourceCodeComparison = new SourceCodeComparison();
         ComparingAlgorithm comparingAlgorithm = new ComparingAlgorithm(articleComparison, sourceCodeComparison);
 
-        PlagiarismDetector plagiarismDetector = new PlagiarismDetector(serverData, webData, comparingAlgorithm);
+        PlagiarismDetector plagiarismDetector = new PlagiarismDetector(serverData, comparingAlgorithm);
         messageDispatcher = new MessageDispatcher(plagiarismDetector);
     }
 }

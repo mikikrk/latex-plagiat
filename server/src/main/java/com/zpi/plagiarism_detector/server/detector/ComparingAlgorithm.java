@@ -11,11 +11,9 @@ import java.util.Set;
 
 public class ComparingAlgorithm {
     private ArticleComparison articleComparison;
-    private SourceCodeComparison sourceCodeComparison;
 
-    public ComparingAlgorithm(ArticleComparison articleComparison, SourceCodeComparison sourceCodeComparison) {
+    public ComparingAlgorithm(ArticleComparison articleComparison) {
         this.articleComparison = articleComparison;
-        this.sourceCodeComparison = sourceCodeComparison;
     }
 
     public List<PlagiarismResult> determineArticlePlagiarism(String articlePath, Set<String> matchingArticlesPaths) {
@@ -29,21 +27,4 @@ public class ComparingAlgorithm {
         return overalResults;
     }
 
-    public List<PlagiarismResult> determineCodePlagiarism(String codePath, Set<String> matchingCodesPaths) {
-        List<PlagiarismResult> plagiarismResults = new LinkedList<>();
-        try {
-            for (String matchingCodePath : matchingCodesPaths) {
-                if (codePath.equals(matchingCodePath)) {
-                    continue;
-                }
-                PlagiarismResult plagiarismResult = sourceCodeComparison.compareFiles(codePath, matchingCodePath);
-                if (plagiarismResult != null){
-                	plagiarismResults.add(plagiarismResult);
-                }
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return plagiarismResults;
-    }
 }

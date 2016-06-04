@@ -53,7 +53,7 @@ public class CompareEngine {
         int indexStart = 0;
         for (String patternSentence : patternTab) {
             comparisonResult.getPlagiarisedFragments().putAll(tP.compareTexts(textTab, patternSentence, indexStart));
-            indexStart+=patternSentence.length();
+            indexStart+=patternSentence.length() + 1;
         }
 
         return comparisonResult;

@@ -14,16 +14,16 @@ public class TextProcessing {
     private Map<PlagiarismFragment, PlagiarismFragment> map;
 
 	private static final String[] latexReplacements = {
-			"\\\\multicolumn{",
-			"\\\\caption{",
-			"\\\\chapter{",
-			"\\\\subsection{",
-			"\\\\section{",
-			"\\\\mbox{",
-			"\\\\emph{",
-			"\\\\section{",
-			"\\\\text[^{]*{",
-			"\\\\title{",
+			"\\\\multicolumn\\{",
+			"\\\\caption\\{",
+			"\\\\chapter\\{",
+			"\\\\subsection\\{",
+			"\\\\section\\{",
+			"\\\\mbox\\{",
+			"\\\\emph\\{",
+			"\\\\section\\{",
+			"\\\\text[^\\{]*\\{",
+			"\\\\title\\{",
 			"\\\\[^ \\n]+"
 	};
     
@@ -46,7 +46,7 @@ public class TextProcessing {
     		String tmpText = textSentence;
         	String[] splited =  prepareText(textSentence);
         	sentenceWordsCount=splited.length-1;
-			if (sentenceWordsCount > 3) {
+			if (sentenceWordsCount > 2) {
 
 				String[] splitedPattern = prepareText(pattern);
 				for (String test : splitedPattern) {
@@ -61,7 +61,7 @@ public class TextProcessing {
 							new PlagiarismFragment(tmpText, textStart, textStart + tmpText.length(), tmpText.length()));
 				}
 			}
-			textStart += tmpText.length();
+			textStart += tmpText.length() + 1;
         }
         return map;
 	}
@@ -81,7 +81,7 @@ public class TextProcessing {
 	}
 
 	private String clearText(String textSentence) {
-		textSentence.replaceAll("[\\{}\\(\\)\\-\\+\\.\\^:,]","");
+		textSentence.replaceAll("[\\{\\}\\(\\)\\-\\+\\.\\^:,]","");
 		textSentence = textSentence.replaceAll("\\b[\\w']{1,2}\\b", "");
 		textSentence = textSentence.replaceAll("\\s{2,}", " ");
 		return textSentence;

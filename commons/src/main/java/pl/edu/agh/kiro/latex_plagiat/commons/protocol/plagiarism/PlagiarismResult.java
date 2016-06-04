@@ -71,7 +71,6 @@ public class PlagiarismResult implements Serializable{
 
     @Override
     public String toString() {
-        // TODO: ktos kto wie jak to wyswietlic niech tutaj cos napisze :)
         return super.toString();
     }
 }

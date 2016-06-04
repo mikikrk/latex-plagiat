@@ -31,7 +31,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>ClientMain</mainClass>
+                            <mainClass>pl.edu.agh.kiro.latex_plagiat.client.main.ClientMain</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>

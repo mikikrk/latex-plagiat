@@ -47,6 +47,11 @@
 			<version>1.4.182</version>
 		</dependency>
 		<dependency>
+			<groupId>javassist</groupId>
+			<artifactId>javassist</artifactId>
+			<version>3.12.1.GA</version>
+		</dependency>
+		<dependency>
 			<groupId>commons-collections</groupId>
 			<artifactId>commons-collections</artifactId>
 			<version>3.2.1</version>
@@ -89,7 +94,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>ServerMain</mainClass>
+							<mainClass>pl.edu.agh.kiro.latex_plagiat.server.main.ServerMain</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>

@@ -3,7 +3,7 @@
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping package="com.zpi.plagiarism_detector.server.database">
-    <class name="com.zpi.plagiarism_detector.server.database.Assignment" table="ASSIGNMENT">
+    <class name="Assignment" table="ASSIGNMENT">
         <composite-id>
             <key-property name="articleId" type="long" column="ARTICLE_ID"
                           length="20"/>

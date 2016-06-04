@@ -1,34 +1,28 @@
-S:\ZPI\plagiat system\plagiat-system\server\src\main\java\com\zpi\plagiarism_detector\server\database\DaoFactory.java
-S:\ZPI\plagiat system\plagiat-system\server\src\main\java\com\zpi\plagiarism_detector\server\data\FileData.java
-S:\ZPI\plagiat system\plagiat-system\server\src\main\java\com\zpi\plagiarism_detector\server\handlers\MessageHandler.java
-S:\ZPI\plagiat system\plagiat-system\server\src\main\java\com\zpi\plagiarism_detector\server\data\Monitor.java
-S:\ZPI\plagiat system\plagiat-system\server\src\main\java\com\zpi\plagiarism_detector\server\exceptions\AbortConnectionException.java
-S:\ZPI\plagiat system\plagiat-system\server\src\main\java\com\zpi\plagiarism_detector\server\main\ServerMain.java
-S:\ZPI\plagiat system\plagiat-system\server\src\main\java\com\zpi\plagiarism_detector\server\database\DaoImp.java
-S:\ZPI\plagiat system\plagiat-system\server\src\main\java\com\zpi\plagiarism_detector\server\core\Server.java
-S:\ZPI\plagiat system\plagiat-system\server\src\main\java\com\zpi\plagiarism_detector\server\handlers\ConnectionHandler.java
-S:\ZPI\plagiat system\plagiat-system\server\src\main\java\com\zpi\plagiarism_detector\server\database\DaoImpToTests.java
-S:\ZPI\plagiat system\plagiat-system\server\src\main\java\com\zpi\plagiarism_detector\server\database\Dao.java
-S:\ZPI\plagiat system\plagiat-system\server\src\main\java\com\zpi\plagiarism_detector\server\database\Keyword.java
-S:\ZPI\plagiat system\plagiat-system\server\src\main\java\com\zpi\plagiarism_detector\server\database\HibernateAccess.java
-S:\ZPI\plagiat system\plagiat-system\server\src\main\java\com\zpi\plagiarism_detector\server\detector\PlagiarismDetector.java
-S:\ZPI\plagiat system\plagiat-system\server\src\main\java\com\zpi\plagiarism_detector\server\detector\ComparingAlgorithm.java
-S:\ZPI\plagiat system\plagiat-system\server\src\main\java\com\zpi\plagiarism_detector\server\factories\handlers\MessageHandlerFactory.java
-S:\ZPI\plagiat system\plagiat-system\server\src\main\java\com\zpi\plagiarism_detector\server\data\WebData.java
-S:\ZPI\plagiat system\plagiat-system\server\src\main\java\com\zpi\plagiarism_detector\server\database\Article.java
-S:\ZPI\plagiat system\plagiat-system\server\src\main\java\com\zpi\plagiarism_detector\server\database\Assignment.java
-S:\ZPI\plagiat system\plagiat-system\server\src\main\java\com\zpi\plagiarism_detector\server\ServerProperties.java
-S:\ZPI\plagiat system\plagiat-system\server\src\main\java\com\zpi\plagiarism_detector\server\websearch\GoogleResults.java
-S:\ZPI\plagiat system\plagiat-system\server\src\main\java\com\zpi\plagiarism_detector\server\articles\CompareEngine.java
-S:\ZPI\plagiat system\plagiat-system\server\src\main\java\com\zpi\plagiarism_detector\server\articles\FileLoader.java
-S:\ZPI\plagiat system\plagiat-system\server\src\main\java\com\zpi\plagiarism_detector\server\data\ServerData.java
-S:\ZPI\plagiat system\plagiat-system\server\src\main\java\com\zpi\plagiarism_detector\server\sourcecode\SourceCode.java
-S:\ZPI\plagiat system\plagiat-system\server\src\main\java\com\zpi\plagiarism_detector\server\factories\core\AbstractServerFactory.java
-S:\ZPI\plagiat system\plagiat-system\server\src\main\java\com\zpi\plagiarism_detector\server\websearch\WebsiteAnalyze.java
-S:\ZPI\plagiat system\plagiat-system\server\src\main\java\com\zpi\plagiarism_detector\server\articles\TextProcessing.java
-S:\ZPI\plagiat system\plagiat-system\server\src\main\java\com\zpi\plagiarism_detector\server\articles\ArticleComparison.java
-S:\ZPI\plagiat system\plagiat-system\server\src\main\java\com\zpi\plagiarism_detector\server\factories\handlers\AbstractMessageHandlerFactory.java
-S:\ZPI\plagiat system\plagiat-system\server\src\main\java\com\zpi\plagiarism_detector\server\websearch\WebsiteAnalyzeInterface.java
-S:\ZPI\plagiat system\plagiat-system\server\src\main\java\com\zpi\plagiarism_detector\server\factories\core\ServerFactory.java
-S:\ZPI\plagiat system\plagiat-system\server\src\main\java\com\zpi\plagiarism_detector\server\sourcecode\SourceCodeComparison.java
-S:\ZPI\plagiat system\plagiat-system\server\src\main\java\com\zpi\plagiarism_detector\server\handlers\MessageDispatcher.java
+/Users/mikolajnowak/Projects/latex-plagiat/server/src/main/java/pl/edu/agh/kiro/latex_plagiat/server/data/ServerData.java
+/Users/mikolajnowak/Projects/latex-plagiat/server/src/main/java/pl/edu/agh/kiro/latex_plagiat/server/articles/ArticleComparison.java
+/Users/mikolajnowak/Projects/latex-plagiat/server/src/main/java/pl/edu/agh/kiro/latex_plagiat/server/detector/PlagiarismDetector.java
+/Users/mikolajnowak/Projects/latex-plagiat/server/src/main/java/pl/edu/agh/kiro/latex_plagiat/server/core/Server.java
+/Users/mikolajnowak/Projects/latex-plagiat/server/src/main/java/pl/edu/agh/kiro/latex_plagiat/server/database/HibernateAccess.java
+/Users/mikolajnowak/Projects/latex-plagiat/server/src/main/java/pl/edu/agh/kiro/latex_plagiat/server/articles/FileLoader.java
+/Users/mikolajnowak/Projects/latex-plagiat/server/src/main/java/pl/edu/agh/kiro/latex_plagiat/server/database/Assignment.java
+/Users/mikolajnowak/Projects/latex-plagiat/server/src/main/java/pl/edu/agh/kiro/latex_plagiat/server/factories/handlers/AbstractMessageHandlerFactory.java
+/Users/mikolajnowak/Projects/latex-plagiat/server/src/main/java/pl/edu/agh/kiro/latex_plagiat/server/handlers/ConnectionHandler.java
+/Users/mikolajnowak/Projects/latex-plagiat/server/src/main/java/pl/edu/agh/kiro/latex_plagiat/server/ServerProperties.java
+/Users/mikolajnowak/Projects/latex-plagiat/server/src/main/java/pl/edu/agh/kiro/latex_plagiat/server/exceptions/AbortConnectionException.java
+/Users/mikolajnowak/Projects/latex-plagiat/server/src/main/java/pl/edu/agh/kiro/latex_plagiat/server/database/DaoImp.java
+/Users/mikolajnowak/Projects/latex-plagiat/server/src/main/java/pl/edu/agh/kiro/latex_plagiat/server/handlers/MessageDispatcher.java
+/Users/mikolajnowak/Projects/latex-plagiat/server/src/main/java/pl/edu/agh/kiro/latex_plagiat/server/factories/core/ServerFactory.java
+/Users/mikolajnowak/Projects/latex-plagiat/server/src/main/java/pl/edu/agh/kiro/latex_plagiat/server/database/DaoImpToTests.java
+/Users/mikolajnowak/Projects/latex-plagiat/server/src/main/java/pl/edu/agh/kiro/latex_plagiat/server/articles/TextProcessing.java
+/Users/mikolajnowak/Projects/latex-plagiat/server/src/main/java/pl/edu/agh/kiro/latex_plagiat/server/database/Dao.java
+/Users/mikolajnowak/Projects/latex-plagiat/server/src/main/java/pl/edu/agh/kiro/latex_plagiat/server/articles/CompareEngine.java
+/Users/mikolajnowak/Projects/latex-plagiat/server/src/main/java/pl/edu/agh/kiro/latex_plagiat/server/main/ServerMain.java
+/Users/mikolajnowak/Projects/latex-plagiat/server/src/main/java/pl/edu/agh/kiro/latex_plagiat/server/database/Article.java
+/Users/mikolajnowak/Projects/latex-plagiat/server/src/main/java/pl/edu/agh/kiro/latex_plagiat/server/database/DaoFactory.java
+/Users/mikolajnowak/Projects/latex-plagiat/server/src/main/java/pl/edu/agh/kiro/latex_plagiat/server/factories/core/AbstractServerFactory.java
+/Users/mikolajnowak/Projects/latex-plagiat/server/src/main/java/pl/edu/agh/kiro/latex_plagiat/server/detector/ComparingAlgorithm.java
+/Users/mikolajnowak/Projects/latex-plagiat/server/src/main/java/pl/edu/agh/kiro/latex_plagiat/server/data/Monitor.java
+/Users/mikolajnowak/Projects/latex-plagiat/server/src/main/java/pl/edu/agh/kiro/latex_plagiat/server/factories/handlers/MessageHandlerFactory.java
+/Users/mikolajnowak/Projects/latex-plagiat/server/src/main/java/pl/edu/agh/kiro/latex_plagiat/server/data/FileData.java
+/Users/mikolajnowak/Projects/latex-plagiat/server/src/main/java/pl/edu/agh/kiro/latex_plagiat/server/handlers/MessageHandler.java
+/Users/mikolajnowak/Projects/latex-plagiat/server/src/main/java/pl/edu/agh/kiro/latex_plagiat/server/database/Keyword.java

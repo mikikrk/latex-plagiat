@@ -3,7 +3,7 @@
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping package="com.zpi.plagiarism_detector.server.database">
-    <class name="com.zpi.plagiarism_detector.server.database.Article" table="ARTICLE">
+    <class name="pl.edu.agh.kiro.latex_plagiat.server.database.Article" table="ARTICLE">
         <id name="id" column="ID">
             <generator class="native"/>
         </id>
@@ -11,7 +11,7 @@
 
         <property name="type" column="TYPE" not-null="true">
             <type name="org.hibernate.type.EnumType">
-                <param name="enumClass">com.zpi.plagiarism_detector.commons.database.DocumentType</param>
+                <param name="enumClass">pl.edu.agh.kiro.latex_plagiat.commons.database.DocumentType</param>
             </type>
         </property>
         <property name="path" column="PATH" type="string" length="100"

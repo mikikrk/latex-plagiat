@@ -3,7 +3,7 @@
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping package="com.zpi.plagiarism_detector.server.database">
-    <class name="com.zpi.plagiarism_detector.server.database.Keyword" table="KEYWORD">
+    <class name="Keyword" table="KEYWORD">
 
         <id name="id" column="ID">
             <generator class="native"/>

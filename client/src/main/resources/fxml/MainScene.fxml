@@ -5,7 +5,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<BorderPane id="BorderPane" prefHeight="600" prefWidth="800" stylesheets="@../styles/Styles.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.zpi.plagiarism_detector.client.controller.MainSceneController">
+<BorderPane id="BorderPane" prefHeight="600" prefWidth="800" stylesheets="@../styles/Styles.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.edu.agh.kiro.latex_plagiat.client.controller.MainSceneController">
     <top>
         <Label fx:id="appTitle" alignment="CENTER" contentDisplay="CENTER" layoutX="200" layoutY="30" prefHeight="47.0" prefWidth="812.0" text="Plagiarism detector" BorderPane.alignment="CENTER" GridPane.columnIndex="0" GridPane.columnSpan="3" GridPane.rowIndex="0" />
     </top>

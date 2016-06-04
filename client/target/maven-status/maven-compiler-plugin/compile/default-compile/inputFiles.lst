@@ -1,17 +1,17 @@
-S:\ZPI\plagiat system\plagiat-system\client\src\main\java\com\zpi\plagiarism_detector\client\view\SwitchButton.java
-S:\ZPI\plagiat system\plagiat-system\client\src\main\java\com\zpi\plagiarism_detector\client\model\io\ClientReader.java
-S:\ZPI\plagiat system\plagiat-system\client\src\main\java\com\zpi\plagiarism_detector\client\main\ClientMain.java
-S:\ZPI\plagiat system\plagiat-system\client\src\main\java\com\zpi\plagiarism_detector\client\model\factories\AbstractClientFactory.java
-S:\ZPI\plagiat system\plagiat-system\client\src\main\java\com\zpi\plagiarism_detector\client\model\io\ClientWriter.java
-S:\ZPI\plagiat system\plagiat-system\client\src\main\java\com\zpi\plagiarism_detector\client\controller\ArticleGridController.java
-S:\ZPI\plagiat system\plagiat-system\client\src\main\java\com\zpi\plagiarism_detector\client\controller\ServerSettingsController.java
-S:\ZPI\plagiat system\plagiat-system\client\src\main\java\com\zpi\plagiarism_detector\client\controller\CodeGridController.java
-S:\ZPI\plagiat system\plagiat-system\client\src\main\java\com\zpi\plagiarism_detector\client\controller\ResultSceneController.java
-S:\ZPI\plagiat system\plagiat-system\client\src\main\java\com\zpi\plagiarism_detector\client\model\exceptions\CannotConnectToTheServerException.java
-S:\ZPI\plagiat system\plagiat-system\client\src\main\java\com\zpi\plagiarism_detector\client\model\core\Client.java
-S:\ZPI\plagiat system\plagiat-system\client\src\main\java\com\zpi\plagiarism_detector\client\model\factories\ClientFactory.java
-S:\ZPI\plagiat system\plagiat-system\client\src\main\java\com\zpi\plagiarism_detector\client\model\Model.java
-S:\ZPI\plagiat system\plagiat-system\client\src\main\java\com\zpi\plagiarism_detector\client\controller\MainSceneController.java
-S:\ZPI\plagiat system\plagiat-system\client\src\main\java\com\zpi\plagiarism_detector\client\model\ClientModel.java
-S:\ZPI\plagiat system\plagiat-system\client\src\main\java\com\zpi\plagiarism_detector\client\view\ViewUtils.java
-S:\ZPI\plagiat system\plagiat-system\client\src\main\java\com\zpi\plagiarism_detector\client\controller\Controller.java
+/Users/mikolajnowak/Projects/latex-plagiat/client/src/main/java/pl/edu/agh/kiro/latex_plagiat/client/model/core/Client.java
+/Users/mikolajnowak/Projects/latex-plagiat/client/src/main/java/pl/edu/agh/kiro/latex_plagiat/client/model/exceptions/CannotConnectToTheServerException.java
+/Users/mikolajnowak/Projects/latex-plagiat/client/src/main/java/pl/edu/agh/kiro/latex_plagiat/client/model/io/ClientWriter.java
+/Users/mikolajnowak/Projects/latex-plagiat/client/src/main/java/pl/edu/agh/kiro/latex_plagiat/client/controller/ResultSceneController.java
+/Users/mikolajnowak/Projects/latex-plagiat/client/src/main/java/pl/edu/agh/kiro/latex_plagiat/client/model/factories/AbstractClientFactory.java
+/Users/mikolajnowak/Projects/latex-plagiat/client/src/main/java/pl/edu/agh/kiro/latex_plagiat/client/main/ClientMain.java
+/Users/mikolajnowak/Projects/latex-plagiat/client/src/main/java/pl/edu/agh/kiro/latex_plagiat/client/model/io/ClientReader.java
+/Users/mikolajnowak/Projects/latex-plagiat/client/src/main/java/pl/edu/agh/kiro/latex_plagiat/client/controller/Controller.java
+/Users/mikolajnowak/Projects/latex-plagiat/client/src/main/java/pl/edu/agh/kiro/latex_plagiat/client/view/SwitchButton.java
+/Users/mikolajnowak/Projects/latex-plagiat/client/src/main/java/pl/edu/agh/kiro/latex_plagiat/client/controller/CodeGridController.java
+/Users/mikolajnowak/Projects/latex-plagiat/client/src/main/java/pl/edu/agh/kiro/latex_plagiat/client/view/ViewUtils.java
+/Users/mikolajnowak/Projects/latex-plagiat/client/src/main/java/pl/edu/agh/kiro/latex_plagiat/client/model/Model.java
+/Users/mikolajnowak/Projects/latex-plagiat/client/src/main/java/pl/edu/agh/kiro/latex_plagiat/client/model/ClientModel.java
+/Users/mikolajnowak/Projects/latex-plagiat/client/src/main/java/pl/edu/agh/kiro/latex_plagiat/client/controller/ArticleGridController.java
+/Users/mikolajnowak/Projects/latex-plagiat/client/src/main/java/pl/edu/agh/kiro/latex_plagiat/client/controller/ServerSettingsController.java
+/Users/mikolajnowak/Projects/latex-plagiat/client/src/main/java/pl/edu/agh/kiro/latex_plagiat/client/model/factories/ClientFactory.java
+/Users/mikolajnowak/Projects/latex-plagiat/client/src/main/java/pl/edu/agh/kiro/latex_plagiat/client/controller/MainSceneController.java

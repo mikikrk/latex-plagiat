@@ -1,14 +1,13 @@
-S:\ZPI\plagiat system\plagiat-system\commons\src\main\java\com\zpi\plagiarism_detector\commons\protocol\ProtocolCode.java
-S:\ZPI\plagiat system\plagiat-system\commons\src\main\java\com\zpi\plagiarism_detector\commons\protocol\ApplicationProperties.java
-S:\ZPI\plagiat system\plagiat-system\commons\src\main\java\com\zpi\plagiarism_detector\commons\factory\AbstractFactory.java
-S:\ZPI\plagiat system\plagiat-system\commons\src\main\java\com\zpi\plagiarism_detector\commons\protocol\Message.java
-S:\ZPI\plagiat system\plagiat-system\commons\src\main\java\com\zpi\plagiarism_detector\commons\util\TestUtils.java
-S:\ZPI\plagiat system\plagiat-system\commons\src\main\java\com\zpi\plagiarism_detector\commons\database\DocumentType.java
-S:\ZPI\plagiat system\plagiat-system\commons\src\main\java\com\zpi\plagiarism_detector\commons\protocol\plagiarism\PlagiarismFragment.java
-S:\ZPI\plagiat system\plagiat-system\commons\src\main\java\com\zpi\plagiarism_detector\commons\util\TextUtils.java
-S:\ZPI\plagiat system\plagiat-system\commons\src\main\java\com\zpi\plagiarism_detector\commons\protocol\DocumentData.java
-S:\ZPI\plagiat system\plagiat-system\commons\src\main\java\com\zpi\plagiarism_detector\commons\util\Observable.java
-S:\ZPI\plagiat system\plagiat-system\commons\src\main\java\com\zpi\plagiarism_detector\commons\util\TypeUtils.java
-S:\ZPI\plagiat system\plagiat-system\commons\src\main\java\com\zpi\plagiarism_detector\commons\util\PdfUtils.java
-S:\ZPI\plagiat system\plagiat-system\commons\src\main\java\com\zpi\plagiarism_detector\commons\protocol\plagiarism\PlagiarismResult.java
-S:\ZPI\plagiat system\plagiat-system\commons\src\main\java\com\zpi\plagiarism_detector\commons\protocol\plagiarism\PlagiarismDetectionResult.java
+/Users/mikolajnowak/Projects/latex-plagiat/commons/src/main/java/pl/edu/agh/kiro/latex_plagiat/commons/protocol/DocumentData.java
+/Users/mikolajnowak/Projects/latex-plagiat/commons/src/main/java/pl/edu/agh/kiro/latex_plagiat/commons/util/Observable.java
+/Users/mikolajnowak/Projects/latex-plagiat/commons/src/main/java/pl/edu/agh/kiro/latex_plagiat/commons/database/DocumentType.java
+/Users/mikolajnowak/Projects/latex-plagiat/commons/src/main/java/pl/edu/agh/kiro/latex_plagiat/commons/protocol/ApplicationProperties.java
+/Users/mikolajnowak/Projects/latex-plagiat/commons/src/main/java/pl/edu/agh/kiro/latex_plagiat/commons/protocol/plagiarism/PlagiarismResult.java
+/Users/mikolajnowak/Projects/latex-plagiat/commons/src/main/java/pl/edu/agh/kiro/latex_plagiat/commons/util/PdfUtils.java
+/Users/mikolajnowak/Projects/latex-plagiat/commons/src/main/java/pl/edu/agh/kiro/latex_plagiat/commons/protocol/plagiarism/PlagiarismDetectionResult.java
+/Users/mikolajnowak/Projects/latex-plagiat/commons/src/main/java/pl/edu/agh/kiro/latex_plagiat/commons/protocol/ProtocolCode.java
+/Users/mikolajnowak/Projects/latex-plagiat/commons/src/main/java/pl/edu/agh/kiro/latex_plagiat/commons/protocol/plagiarism/PlagiarismFragment.java
+/Users/mikolajnowak/Projects/latex-plagiat/commons/src/main/java/pl/edu/agh/kiro/latex_plagiat/commons/util/TypeUtils.java
+/Users/mikolajnowak/Projects/latex-plagiat/commons/src/main/java/pl/edu/agh/kiro/latex_plagiat/commons/util/TextUtils.java
+/Users/mikolajnowak/Projects/latex-plagiat/commons/src/main/java/pl/edu/agh/kiro/latex_plagiat/commons/factory/AbstractFactory.java
+/Users/mikolajnowak/Projects/latex-plagiat/commons/src/main/java/pl/edu/agh/kiro/latex_plagiat/commons/protocol/Message.java

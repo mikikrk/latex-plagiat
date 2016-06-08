@@ -1,5 +1,6 @@
 pl\edu\agh\kiro\latex_plagiat\commons\protocol\DocumentData.class
 pl\edu\agh\kiro\latex_plagiat\commons\util\Observable.class
+pl\edu\agh\kiro\latex_plagiat\commons\protocol\plagiarism\FragmentsPair.class
 pl\edu\agh\kiro\latex_plagiat\commons\protocol\plagiarism\PlagiarismResult.class
 pl\edu\agh\kiro\latex_plagiat\commons\factory\AbstractFactory.class
 pl\edu\agh\kiro\latex_plagiat\commons\protocol\ApplicationProperties.class

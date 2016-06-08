@@ -22,33 +22,63 @@
                 <rowConstraints>
                     <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                 </rowConstraints>
-                <children>
-                    <Button fx:id="prevArticle" mnemonicParsing="false" onAction="#handlePrevArticleAction" text="&lt;" GridPane.halignment="RIGHT" />
-                    <Button fx:id="nextArticle" mnemonicParsing="false" onAction="#handleNextArticleAction" text="&gt;" GridPane.columnIndex="2" GridPane.halignment="LEFT" />
-                    <GridPane GridPane.columnIndex="1">
-                        <columnConstraints>
-                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-                            <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="100.0" />
-                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-                        </columnConstraints>
-                        <rowConstraints>
-                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                        </rowConstraints>
-                        <children>
-                            <Label fx:id="currentArticleNr" text="0" textFill="WHITE" GridPane.halignment="RIGHT">
-                                <padding>
-                                    <Insets right="2.0" />
-                                </padding>
-                            </Label>
-                            <Label text="out of" textFill="WHITE" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="NEVER" GridPane.vgrow="NEVER" />
-                            <Label fx:id="totalArticleCnt" text="0" textFill="WHITE" GridPane.columnIndex="2" GridPane.halignment="LEFT">
-                                <padding>
-                                    <Insets left="5.0" />
-                                </padding>
-                            </Label>
-                        </children>
-                    </GridPane>
-                </children>
+
+              <children>
+                <Label text="Article" textFill="WHITE" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="NEVER" GridPane.vgrow="NEVER" />
+                <Button fx:id="prevArticle" mnemonicParsing="false" onAction="#handlePrevArticleAction" text="&lt;" GridPane.halignment="RIGHT" />
+                <Button fx:id="nextArticle" mnemonicParsing="false" onAction="#handleNextArticleAction" text="&gt;" GridPane.columnIndex="2" GridPane.halignment="LEFT" />
+                <GridPane GridPane.columnIndex="1">
+                  <columnConstraints>
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="100.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  </columnConstraints>
+                  <rowConstraints>
+                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  </rowConstraints>
+                  <children>
+                    <Label fx:id="currentArticleNr" text="0" textFill="WHITE" GridPane.halignment="RIGHT">
+                      <padding>
+                        <Insets right="2.0" />
+                      </padding>
+                    </Label>
+                    <Label text="out of" textFill="WHITE" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="NEVER" GridPane.vgrow="NEVER" />
+                    <Label fx:id="totalArticleCnt" text="0" textFill="WHITE" GridPane.columnIndex="2" GridPane.halignment="LEFT">
+                      <padding>
+                        <Insets left="5.0" />
+                      </padding>
+                    </Label>
+                  </children>
+                </GridPane>
+              </children>
+              <children>
+                <Label text="Line" textFill="WHITE" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="NEVER" GridPane.vgrow="NEVER" />
+                <Button fx:id="prevLine" mnemonicParsing="false" onAction="#handlePrevLineAction" text="&lt;" GridPane.halignment="RIGHT" />
+                <Button fx:id="nextLine" mnemonicParsing="false" onAction="#handleNextLineAction" text="&gt;" GridPane.columnIndex="2" GridPane.halignment="LEFT" />
+                <GridPane GridPane.columnIndex="1">
+                  <columnConstraints>
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="100.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  </columnConstraints>
+                  <rowConstraints>
+                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  </rowConstraints>
+                  <children>
+                    <Label fx:id="currentLineNr" text="0" textFill="WHITE" GridPane.halignment="RIGHT">
+                      <padding>
+                        <Insets right="2.0" />
+                      </padding>
+                    </Label>
+                    <Label text="out of" textFill="WHITE" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="NEVER" GridPane.vgrow="NEVER" />
+                    <Label fx:id="totalLineCnt" text="0" textFill="WHITE" GridPane.columnIndex="2" GridPane.halignment="LEFT">
+                      <padding>
+                        <Insets left="5.0" />
+                      </padding>
+                    </Label>
+                  </children>
+                </GridPane>
+              </children>
             </GridPane>
             <TextArea fx:id="outputData" editable="false" promptText="No articles found" GridPane.columnIndex="1" GridPane.rowIndex="1" />
       </children>

@@ -27,13 +27,12 @@ public class ResultSceneController implements Initializable, Controller {
     GridPane container;
     @FXML
     TextField statWordsArtic, statWordsOvall, statPercArtic, statPercOvall;
-    Node articleGridNode, codeGridNode;
+    Node articleGridNode;
     private static List<List<PlagiarismResult>> allDocuments;
     private static List<PlagiarismResult> returnedResult;
 
     @FXML
     private ArticleGridController articleController;
-    private CodeGridController codeGridController;
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
@@ -43,7 +42,6 @@ public class ResultSceneController implements Initializable, Controller {
         allDocuments = separateDocuments(returnedResult);
         try {
             articleGridNode = (Node) loader.load(getClass().getResource("/fxml/includes/articleGrid.fxml"));
-            codeGridNode = (Node) loader.load(getClass().getResource("/fxml/includes/codeGrid.fxml"));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -68,9 +66,6 @@ public class ResultSceneController implements Initializable, Controller {
     private void handleSwitchButtonAction() {
 
         Node gridNode = articleGridNode;
-        if (switchButton.switchOnProperty().getValue() == true) {
-            gridNode = codeGridNode;
-        }
         container.getChildren().clear();
         container.getChildren().add(gridNode);
 
@@ -158,7 +153,7 @@ public class ResultSceneController implements Initializable, Controller {
      * @return
      */
     private int getPercantageOfSimilarity(PlagiarismResult result) {
-        int fragmentsAmount = result.getPlagiarisedFragments().entrySet().size();
+        int fragmentsAmount = result.getPlagiarisedFragments().size();
         int sentencesAmount = result.getNewDocument().split("\\.").length;
         return fragmentsAmount / sentencesAmount;
     }

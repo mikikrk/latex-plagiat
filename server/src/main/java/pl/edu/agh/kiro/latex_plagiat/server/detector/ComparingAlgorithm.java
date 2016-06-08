@@ -18,7 +18,7 @@ public class ComparingAlgorithm {
         List<PlagiarismResult> overalResults = new LinkedList<>();
         for (String matchingCodePath : matchingArticlesPaths) {
             PlagiarismResult plagiarismResult = articleComparison.compare(articlePath, matchingCodePath);
-            if (plagiarismResult != null){
+            if (plagiarismResult != null && !plagiarismResult.getPlagiarisedFragments().isEmpty()){
             	overalResults.add(plagiarismResult);
             }
         }

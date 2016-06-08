@@ -9,7 +9,6 @@ pl\edu\agh\kiro\latex_plagiat\client\controller\MainSceneController$1.class
 pl\edu\agh\kiro\latex_plagiat\client\controller\ResultSceneController.class
 pl\edu\agh\kiro\latex_plagiat\client\model\factories\ClientFactory.class
 pl\edu\agh\kiro\latex_plagiat\client\model\Model.class
-pl\edu\agh\kiro\latex_plagiat\client\controller\CodeGridController.class
 pl\edu\agh\kiro\latex_plagiat\client\view\SwitchButton$1.class
 pl\edu\agh\kiro\latex_plagiat\client\controller\Controller.class
 pl\edu\agh\kiro\latex_plagiat\client\model\core\Client.class

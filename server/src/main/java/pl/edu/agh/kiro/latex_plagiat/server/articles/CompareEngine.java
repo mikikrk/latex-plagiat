@@ -42,7 +42,6 @@ public class CompareEngine {
     public PlagiarismResult compare(String _pattern, String _text) throws IOException {
     	comparisonResult = new PlagiarismResult();
     	comparisonResult.setType(DocumentType.TEXT);
-    	comparisonResult.setPlagiarisedFragments(new HashMap<PlagiarismFragment, PlagiarismFragment>());
         fL = new FileLoader(_pattern, _text);
         fL.loadFiles();
         pattern = fL.getPattern();
@@ -52,8 +51,10 @@ public class CompareEngine {
         this.splitStrings();
         int indexStart = 0;
         for (String patternSentence : patternTab) {
-            comparisonResult.getPlagiarisedFragments().putAll(tP.compareTexts(textTab, patternSentence, indexStart));
-            indexStart+=patternSentence.length() + 1;
+            if (patternSentence.split("\\s+").length > 2) {
+                comparisonResult.getPlagiarisedFragments().addAll(tP.compareTexts(textTab, patternSentence, indexStart));
+                indexStart += patternSentence.length() + 1;
+            }
         }
 
         return comparisonResult;

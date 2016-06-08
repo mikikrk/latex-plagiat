@@ -2,6 +2,8 @@ package pl.edu.agh.kiro.latex_plagiat.commons.protocol.plagiarism;
 
 import java.io.Serializable;
 import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Map;
 
 import pl.edu.agh.kiro.latex_plagiat.commons.database.DocumentType;
@@ -10,24 +12,22 @@ public class PlagiarismResult implements Serializable{
     private String newDocument;        //to co użytkownik przesłał
     private String existingDocument;   //to do czego jest porównywany dokument użytkownika
 
-    private Map<PlagiarismFragment, PlagiarismFragment> plagiarisedFragments;
+    private List<FragmentsPair> plagiarisedFragments = new LinkedList<>();
     private DocumentType type;
 
     public PlagiarismResult() {
-
     }
     
     public PlagiarismResult(PlagiarismResult plagiarism){
     	this.newDocument = plagiarism.getNewDocument();
     	this.existingDocument = plagiarism.getExistingDocument();
-    	this.plagiarisedFragments = new HashMap<PlagiarismFragment, PlagiarismFragment>();
-    	plagiarisedFragments.putAll(plagiarism.getPlagiarisedFragments());
+    	this.plagiarisedFragments.addAll(plagiarism.getPlagiarisedFragments());
     	this.type = plagiarism.getType();
     }
 
     public PlagiarismResult(String newDocument,
                             String existingDocument,
-                            Map<PlagiarismFragment, PlagiarismFragment> plagiarisedFragments,
+                            List<FragmentsPair> plagiarisedFragments,
                             DocumentType type) {
 
         this.newDocument = newDocument;
@@ -52,12 +52,12 @@ public class PlagiarismResult implements Serializable{
         this.existingDocument = existingDocument;
     }
 
-    public Map<PlagiarismFragment, PlagiarismFragment> getPlagiarisedFragments() {
+    public List<FragmentsPair> getPlagiarisedFragments() {
         return plagiarisedFragments;
     }
 
     public void setPlagiarisedFragments(
-            Map<PlagiarismFragment, PlagiarismFragment> plagiarisedFragments) {
+            List<FragmentsPair> plagiarisedFragments) {
         this.plagiarisedFragments = plagiarisedFragments;
     }
 

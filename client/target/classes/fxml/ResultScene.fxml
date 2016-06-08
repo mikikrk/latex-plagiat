@@ -3,7 +3,7 @@
 <?import java.lang.*?>
 <?import javafx.geometry.*?>
 <?import javafx.scene.text.*?>
-<?import com.zpi.plagiarism_detector.client.view.*?>
+<?import pl.edu.agh.kiro.latex_plagiat.client.view.*?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>

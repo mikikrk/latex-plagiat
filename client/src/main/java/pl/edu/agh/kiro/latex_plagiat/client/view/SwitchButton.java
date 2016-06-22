@@ -63,7 +63,7 @@ public class SwitchButton extends Label {
                 }
             });
 
-            articleSwitchedOn.set(false);
+            articleSwitchedOn.set(true);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

@@ -235,7 +235,7 @@ public class MainSceneController implements Initializable, Controller, Observer 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         model = createModel();
-        Bindings.bindBidirectional(currentArticleNr.textProperty(),
+        /*Bindings.bindBidirectional(currentArticleNr.textProperty(),
                 currCodeIndex,
                 new NumberStringConverter());
         Bindings.bindBidirectional(totalArticleCnt.textProperty(),
@@ -249,7 +249,7 @@ public class MainSceneController implements Initializable, Controller, Observer 
                     codeList.set(currCodeIndex.get() - 1, inputCode.getText());
                 }
             }
-        });
+        });*/
     }
 
     private ClientModel createModel() {

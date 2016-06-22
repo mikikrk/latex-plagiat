@@ -26,7 +26,7 @@ public class ResultSceneController implements Initializable, Controller {
     @FXML
     GridPane container;
     @FXML
-    TextField statWordsArtic, statWordsOvall, statPercArtic, statPercOvall;
+    TextField statWordsArtic, statWordsOvall;
     Node articleGridNode;
     private static List<List<PlagiarismResult>> allDocuments;
     private static List<PlagiarismResult> returnedResult;
@@ -45,13 +45,13 @@ public class ResultSceneController implements Initializable, Controller {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        handleSwitchButtonAction();
+       handleSwitchButtonAction();
         statWordsArtic.setText(null);
         statWordsOvall.setText(Integer.toString(getAmountOfSimilarSentencesInAllResults(returnedResult)));
-        statPercArtic.setText(null);
-        statPercOvall.setText(Integer.toString(getPercantageOfSimilarityInAllResults(returnedResult)));
+        //statPercArtic.setText(null);
+        //statPercOvall.setText(Integer.toString(getPercantageOfSimilarityInAllResults(returnedResult)));
         
-        switchButton.addEventHandler(ActionEvent.ACTION, new EventHandler<ActionEvent>() {
+        /*switchButton.addEventHandler(ActionEvent.ACTION, new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
 
@@ -59,7 +59,7 @@ public class ResultSceneController implements Initializable, Controller {
                     handleSwitchButtonAction();
                 }
             }
-        });
+        });*/
     }
 
     @FXML

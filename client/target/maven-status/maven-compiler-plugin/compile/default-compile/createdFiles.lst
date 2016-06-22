@@ -12,10 +12,8 @@ pl\edu\agh\kiro\latex_plagiat\client\model\Model.class
 pl\edu\agh\kiro\latex_plagiat\client\view\SwitchButton$1.class
 pl\edu\agh\kiro\latex_plagiat\client\controller\Controller.class
 pl\edu\agh\kiro\latex_plagiat\client\model\core\Client.class
-pl\edu\agh\kiro\latex_plagiat\client\controller\ResultSceneController$1.class
 pl\edu\agh\kiro\latex_plagiat\client\controller\MainSceneController.class
 pl\edu\agh\kiro\latex_plagiat\client\model\ClientModel.class
-pl\edu\agh\kiro\latex_plagiat\client\controller\MainSceneController$2.class
 pl\edu\agh\kiro\latex_plagiat\client\main\ClientMain.class
 pl\edu\agh\kiro\latex_plagiat\client\controller\ServerSettingsController.class
 pl\edu\agh\kiro\latex_plagiat\client\view\SwitchButton.class

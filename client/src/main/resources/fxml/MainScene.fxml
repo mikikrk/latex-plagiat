@@ -31,14 +31,14 @@
                             </rowConstraints>
                             <children>
                                 <HBox prefHeight="100.0" prefWidth="200.0">
-                                    <children>
+                                    <!--<children>
                                         <Button fx:id="loadFromFile" alignment="CENTER" contentDisplay="CENTER" minWidth="120.0" text="Load from file" HBox.hgrow="NEVER" />
                                         <TextField fx:id="fileInput" editable="false" promptText="Select file..." HBox.hgrow="ALWAYS">
                                             <HBox.margin>
                                                 <Insets left="10.0" />
                                             </HBox.margin>
                                         </TextField>
-                                    </children>
+                                    </children> -->
                                 </HBox>
                             </children>
                         </GridPane>
@@ -57,7 +57,7 @@
                     <children>
                         <GridPane vgap="10.0" GridPane.columnIndex="0" GridPane.rowIndex="0">
                             <children>
-                                <GridPane prefHeight="62.0" prefWidth="365.0">
+                               <!-- <GridPane prefHeight="62.0" prefWidth="365.0">
                                     <columnConstraints>
                                         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                                         <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="100.0" />
@@ -66,7 +66,7 @@
                                     <rowConstraints>
                                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                                     </rowConstraints>
-                                    <children>
+                                     <children>
                                         <Button fx:id="prevCode" mnemonicParsing="false" onAction="#handlePrevCodeAction" text="&lt;" GridPane.halignment="RIGHT" />
                                         <Button fx:id="nextCode" mnemonicParsing="false" onAction="#handleNextCodeAction" text="&gt;" GridPane.columnIndex="2" GridPane.halignment="LEFT" />
                                         <GridPane GridPane.columnIndex="1">
@@ -93,8 +93,8 @@
                                             </children>
                                         </GridPane>
                                     </children>
-                                </GridPane>
-                                <TextArea fx:id="inputCode" promptText="Source code" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+                                </GridPane>-->
+                               <!-- <TextArea fx:id="inputCode" promptText="Source code" GridPane.columnIndex="0" GridPane.rowIndex="1" /> -->
                                 <GridPane hgap="10.0" GridPane.rowIndex="2">
                                     <columnConstraints>
                                         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -103,10 +103,10 @@
                                     <rowConstraints>
                                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                                     </rowConstraints>
-                                    <children>
+                                    <!-- <children>
                                         <Button fx:id="addNewCode" mnemonicParsing="false" onAction="#handleAddNewCodeAction" prefWidth="100.0" text="Add new" GridPane.halignment="RIGHT" />
                                         <Button fx:id="removeCode" mnemonicParsing="false" onAction="#handleRemoveCodeAction" prefWidth="100.0" text="Remove code" GridPane.columnIndex="1" />
-                                    </children>
+                                    </children> -->
                                 </GridPane>
                             </children>
                             <columnConstraints>
